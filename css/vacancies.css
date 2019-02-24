@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+body .wrap {
+  display: flex;
+  flex-direction: row;
+  background: #E9E9E9;
+  height: 100vh;
+}
+body .wrap .nav {
+  border: 1px solid red;
+  width: 15%;
+}
+body .wrap .main {
+  width: 85%;
+  border: 1px solid brown;
+  display: flex;
+  flex-direction: column;
+}
+body .wrap .main .header {
+  display: flex;
+  justify-content: flex-start;
+}
+body .wrap .main .header .search {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+}
+body .wrap .main .header .search i {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+body .wrap .main .header .search input#search {
+  width: 90%;
+  height: 32px;
+  padding: 0px 0px 0px 40px;
+  background: #E9E9E9;
+  outline: none;
+}
+body .wrap .main .header .notificationBlock {
+  display: flex;
+  justify-content: flex-end;
+  width: 9%;
+  height: 100%;
+}
+body .wrap .main .header .notificationBlock button {
+  vertical-align: middle;
+  color: inherit;
+  outline: none;
+  background: none;
+  margin: 0px 10px 0px 10px;
+  border: none;
+  padding: 0;
+  height: 100%;
+  line-height: 0;
+  cursor: pointer;
+}
+body .wrap .main .header .notificationBlock button i:before {
+  font-size: 20px;
+}
+body .wrap .main .section {
+  background: white;
+  height: 100vh;
+}
+/*# sourceMappingURL=vacancies.css.map */

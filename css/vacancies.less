@@ -1,0 +1,79 @@
+body {
+  margin: 0px;
+  padding: 0px;
+
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    background: #E9E9E9;
+    height: 100vh;
+
+    .nav {
+      border: 1px solid red;
+      width: 15%;
+
+    }
+
+    .main {
+      width: 85%;
+      border: 1px solid brown;
+      display: flex;
+      flex-direction: column;
+      .header {
+        display: flex;
+        justify-content: flex-start;
+
+        .search {
+          position: relative;
+          display: inline-block;
+          width: 90%;
+
+          i {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+          }
+
+          input#search {
+            width: 90%;
+            height: 32px;
+            padding: 0px 0px 0px 40px;
+            background: #E9E9E9;
+            outline: none;
+          }
+        }
+
+        .notificationBlock {
+          display: flex;
+          justify-content: flex-end;
+          width: 9%;
+          height: 100%;
+          //display: inline-block;
+          //background:red;
+          button {
+            vertical-align: middle;
+            color: inherit;
+            outline: none;
+            background: none;
+            margin: 0px 10px 0px 10px;
+            border: none;
+            padding: 0;
+            height: 100%;
+            line-height: 0;
+            cursor: pointer;
+
+            i:before {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+.section{
+  background: white;
+  height:100vh;
+}
+
+    }
+  }
+}
+
