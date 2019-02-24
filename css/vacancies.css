@@ -1,6 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 body .wrap {
   display: flex;
@@ -9,12 +10,27 @@ body .wrap {
   height: 100vh;
 }
 body .wrap .nav {
-  border: 1px solid red;
-  width: 15%;
+  width: 12%;
+}
+body .wrap .nav h4 {
+  margin: 0;
+  padding: 5px 0px 10px 20px;
+  opacity: 0.5;
+}
+body .wrap .nav div {
+  padding: 10px 0px;
+}
+body .wrap .nav div:hover {
+  background: #dadada;
+  cursor: pointer;
+}
+body .wrap .nav div span {
+  opacity: 0.7;
+  font-size: 18px;
+  padding: 0px 20px;
 }
 body .wrap .main {
-  width: 85%;
-  border: 1px solid brown;
+  width: 88%;
   display: flex;
   flex-direction: column;
 }
@@ -61,7 +77,50 @@ body .wrap .main .header .notificationBlock button i:before {
   font-size: 20px;
 }
 body .wrap .main .section {
+  display: flex;
+  flex-direction: column;
   background: white;
   height: 100vh;
+  box-shadow: 0px 0px 10px 2px white;
+}
+body .wrap .main .section .filterBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  border: 1px solid #E9E9E9;
+  padding: 0px 0px 20px 20px;
+}
+body .wrap .main .section .filterBlock div span {
+  font-size: 18px;
+}
+body .wrap .main .section .filterBlock div .filterBy {
+  font-size: 15px;
+}
+body .wrap .main .section .filterBlock div .filterEl {
+  width: 10%;
+  border-radius: 10px;
+  outline: none;
+  margin: 0 10px;
+  background: #E9E9E9;
+}
+body .wrap .main .section .filterBlock div input {
+  width: 10%;
+  border-radius: 10px;
+  outline: none;
+  margin: 0 10px;
+  padding: 0px 10px;
+}
+body .wrap .main .section .titleBlock {
+  height: 30px;
+  border: 1px solid #E9E9E9;
+}
+body .wrap .main .section .outputBlock {
+  height: 60px;
+  border: 1px solid #E9E9E9;
+}
+body .wrap .main .section .navigationPages {
+  height: 50px;
+  border: 1px solid #E9E9E9;
 }
 /*# sourceMappingURL=vacancies.css.map */
