@@ -13,7 +13,6 @@ body {
     .nav {
       width: 12%;
 
-
       h4 {
         margin: 0;
         padding: 5px 0px 10px 20px;
@@ -26,14 +25,12 @@ body {
         &:hover {
           background: #dadada;
           cursor: pointer;
-
         }
 
         span {
           opacity: .7;
           font-size: 18px;
           padding: 0px 20px;
-
         }
       }
     }
@@ -72,8 +69,7 @@ body {
           justify-content: flex-end;
           width: 9%;
           height: 100%;
-          //display: inline-block;
-          //background:red;
+
           button {
             vertical-align: middle;
             color: inherit;
@@ -101,7 +97,7 @@ body {
         box-shadow: 0px 0px 10px 2px white;
 
         .filterBlock {
-          display:flex;
+          display: flex;
           flex-direction: column;
           justify-content: space-around;
           height: 100px;
@@ -110,48 +106,114 @@ body {
 
           div {
 
-            span{
+            span {
               font-size: 18px;
             }
-            .filterBy{
+
+            .filterBy {
               font-size: 15px;
             }
+
             .filterEl {
               width: 10%;
               border-radius: 10px;
               outline: none;
               margin: 0 10px;
-              background:#E9E9E9 ;
+              background: #E9E9E9;
             }
 
             input {
               width: 10%;
               border-radius: 10px;
               outline: none;
-             margin: 0 10px;
+              margin: 0 10px;
               padding: 0px 10px;
             }
           }
         }
 
         .titleBlock {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
           height: 30px;
           border: 1px solid #E9E9E9;
+          padding: 0px 150px 0px 20px;
 
+          div {
+            display: inline-block;
+            width: 100px;
+            height: 10px;
+            background: #E9E9E9;
+          }
         }
 
         .outputBlock {
-          height: 60px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 70px;
           border: 1px solid #E9E9E9;
+          padding: 0px 150px 0px 20px;
+
+          div {
+            display: inline-block;
+            width: 100px;
+            height: 10px;
+            background: #E9E9E9;
+          }
+
+          .itemOutput {
+            background: white;
+            display: inline-block;
+            width: 100px;
+            height: 10px;
+            font-size: 15px;
+
+            .itemOutputCandidates {
+              width: 100vw;
+              position: relative;
+              margin-left: -4.4vw;
+              left: 50%;
+            }
+          }
         }
 
         .navigationPages {
+          display: flex;
           height: 50px;
           border: 1px solid #E9E9E9;
+
+          div {
+            display: inline-block;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 15px 0px 15px 20px;
+            opacity: 0.5;
+
+            span {
+              font-size: 10px;
+            }
+          }
+
+          .addButton {
+            position: fixed;
+            left: 1270px;
+            top: 580px;
+            width: 30px;
+            height: 20px;
+            background: #919191;
+            border-radius: 100%;
+            box-shadow: 0px 0px 10px 2px #919191;
+
+            i {
+              position: relative;
+              right: 2px;
+            }
+          }
         }
-
       }
-
     }
   }
 }
