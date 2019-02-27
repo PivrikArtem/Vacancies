@@ -183,6 +183,8 @@ body {
           display: flex;
           height: 50px;
           border: 1px solid #E9E9E9;
+          position: relative;
+          z-index: 0;
 
           div {
             display: inline-block;
@@ -206,10 +208,12 @@ body {
             background: #919191;
             border-radius: 100%;
             box-shadow: 0px 0px 10px 2px #919191;
+            z-index: 1;
 
             i {
               position: relative;
               right: 2px;
+              z-index: 1;
             }
           }
         }
